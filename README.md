@@ -1,16 +1,2 @@
 # Search-Engine
-This project allows users to interact with a chatbot that can search the web, fetch information from Arxiv, Wikipedia, and perform general web searches using DuckDuckGo. The chatbot integrates with Groq's Gemma2-9b-it model for natural language processing, enabling intelligent responses based on real-time searches.
-
-Features
-Natural Language Queries: Ask questions in natural language and get answers in real-time.
-Web Search: The chatbot can search the web via DuckDuckGo, providing broad search capabilities.
-Arxiv Search: It can retrieve academic papers from Arxiv based on your queries, making it ideal for researchers.
-Wikipedia Search: The chatbot also pulls information from Wikipedia to answer a variety of questions.
-Customizable: You can configure the Groq API key and the chatbot’s behavior via the sidebar.
-Technologies Used
-LangChain: For building the agent-based chatbot with multiple data sources.
-Groq API: To power the Gemma2-9b-it language model for generating responses.
-Streamlit: For creating the user-friendly interface for chatting and interacting with the bot.
-ArxivAPIWrapper: To fetch academic papers from Arxiv.
-WikipediaAPIWrapper: To pull content from Wikipedia for answering queries.
-DuckDuckGo: For general web search integration.
+This project enables users to engage with an intelligent chatbot capable of searching the web, retrieving information from Arxiv, Wikipedia, and conducting general web searches through DuckDuckGo. Powered by Groq's Gemma2-9b-it model, the chatbot leverages advanced natural language processing to generate contextually relevant responses based on real-time search results. It allows users to ask questions in natural language and receive answers instantly. The chatbot can perform web searches, retrieve academic papers from Arxiv, and provide detailed explanations from Wikipedia, making it a versatile tool for both research and general knowledge inquiries. Additionally, the system is customizable, allowing users to configure the Groq API key and adjust the chatbot's behavior via an intuitive sidebar. This integration combines cutting-edge technologies like LangChain, Groq API, and Streamlit to create a seamless experience, making it easier for users to access and interact with diverse sources of information.
