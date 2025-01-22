@@ -13,7 +13,7 @@ groq_api_key=os.getenv("GROQ_API_KEY")
 api_wrapper_arxic=ArxivAPIWrapper(top_k_results=1,doc_content_chars_max=250)
 Arxiv=ArxivQueryRun(api_wrapper=api_wrapper_arxic) #you need to run this 
 
-
+####
 #wikipediawrapper
 api_wrapper_wiki=WikipediaAPIWrapper(top_k_results=1,doc_content_chars_max=250)
 wiki=WikipediaQueryRun(api_wrapper=api_wrapper_wiki) #you need to run this 
