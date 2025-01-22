@@ -40,7 +40,7 @@ for msg in st.session_state.messages:
 if prompt:=st.chat_input(placeholder="What is machine learning?"):  #walrus operator ,here what we are doing is ka jao mesages placeholder se aya rah hai ,yeh woe kry gy 
    st.session_state.messages.append( {"role":"user","content":prompt})
    st.chat_message("user").write(prompt) #creata a chatbubble with the user jao poucha hai 
-   llm=ChatGroq(model="Gemma2-9b-it",groq_api_key="gsk_U8x4v92NzX9YwiWGdyb3FY0jnB2KMw1h4Qwh34F2P84KzU",streaming=True)
+   llm=ChatGroq(model="Gemma2-9b-it",groq_api_key="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",streaming=True)
    tools=[search,Arxiv,wiki]
    search_agent=initialize_agent(tools,llm,agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,handling_parsing_errors=True)
 
