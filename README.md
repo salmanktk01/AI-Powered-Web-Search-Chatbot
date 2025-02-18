@@ -1,7 +1,7 @@
 # LangChain: AI-Powered Web Search Chatbot
 This project is a Streamlit-based chatbot application that allows users to perform web searches using LangChain. It integrates multiple search tools, including Arxiv, Wikipedia, and DuckDuckGo, and utilizes an AI model from Groq for generating responses.
 
-##Features
+## Features
 AI-Powered Search: Queries information from Arxiv, Wikipedia, and the web.
 LangChain Integration: Utilizes LangChain's agent system for smart retrieval.
 Groq AI Model: Employs Gemma2-9b-it for intelligent responses.
