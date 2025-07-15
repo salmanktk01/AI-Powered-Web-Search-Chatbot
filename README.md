@@ -10,11 +10,11 @@ Deployed on Streamlit: Accessible online for easy interaction.
 
 ## Requirements
 Ensure you have the following installed:
-Python 3.x
-Streamlit
-LangChain
-DuckDuckGoSearch
-WikipediaAPIWrapper
+- Python 3.x
+- Streamlit
+- LangChain
+- DuckDuckGoSearch
+- WikipediaAPIWrapper
 
 ## Usage
 Enter your Groq API key in the sidebar.
